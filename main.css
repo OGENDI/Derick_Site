@@ -71,7 +71,8 @@
      color: rgb(201, 184, 33);
      font-weight: 900;
      font-size: 1.1rem;
-    text-align: center;
+     text-align: center;
+     padding: 3px;
  }
 
  .topics {
@@ -82,3 +83,7 @@
      font-size: 1.5rem;
  }
  
+ footer{
+     background-color: rgba(0, 0, 0, 0.418);
+     text-align: center;
+ }
