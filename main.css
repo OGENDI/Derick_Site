@@ -46,6 +46,7 @@
      background-size: 100% 100%;
      padding: 50px;
      height: fit-content;
+     border-radius: 20px;
  }
 
  .ct {
@@ -54,6 +55,7 @@
      background-size: 100% 100%;
      padding: 50px;
      height: fit-content;
+     border-radius: 20px;
  }
   .tr {
     font-size: 1.5rem;
@@ -61,6 +63,7 @@
     background-size: 100% 100%;
     padding: 50px;
     height: fit-content;
+    border-radius: 20px;
   }
 
  p{
