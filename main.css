@@ -1,93 +1,108 @@
-.menu,ul,li{
-    display: flex;
-    text-decoration: none;
-    padding: 20px;    
-    justify-content: space-evenly;
-    background-image: url('4.jpg');        
-}
- 
- li,a {
-     text-decoration: none;
-     color:gold;
-     font-size: 1.5em;
-     font-weight: 900;
-    
-         
+
+ body {
+     background-image: url("sunset.jpeg");
+     background-size: cover;
  }
 
- .content {
-     background-image: url('1.jpeg');
-     background-size: 100% 100%;
-     padding: 10px;
-     height: 100vh;
-    
-         
+ .navigation-bar {
+     background-image: url("fall.jpg");
+     display: flex;
  }
 
- .bio {
-     color: wheat;
+ .menu ul {
+     display: flex;
      font-size: 2.4rem;
-     background-color: rgba(0, 0, 0, 0.5);
-     text-align: center;
      
+          
+ }
+ .menu ul li {
+    text-decoration: none;
+    list-style: none;
+    margin: 0px 15px 0px 15px;
+ }
+ .menu ul li a {
+     text-decoration: none;
+     color: wheat;
+     
+ }
+ 
+ footer {
+     background: linear-gradient(to bottom, orange,white);
+     padding: 15px;
+     font-size: 26px;
+     text-align: center;
+     color: green;
+     font-weight: bolder;
+     
+ }
+
+ .body_intro {
+     display: flex;
     
  }
- h1 {
-     background-color: rgba(0, 0, 0, 0.5);
-     padding: 20px;
-     color: whitesmoke;
-     font-size: 4.5rem;
+ 
+ .gap {
+     padding: 10px;
+     flex: 1;
+ }
+
+ .services {
+     /* flex: 2; */
+     color: rgb(255, 255, 255);
+    font-size: 1.9rem;
+    background: linear-gradient(to top, darkgrey, transparent);
+    font-weight: 900;
+     }
+
+ .services h3{
+     font-size: 2.6rem;
      text-align: center;
+
+ }
+ .body_intro1{
+     font-size: 1.2rem;
  }
 
- .ad {
-     font-size: 1.5rem;
-     background-image: url('3.jpg');
-     background-size: 100% 100%;
-     padding: 50px;
-     height: fit-content;
-     border-radius: 20px;
+ .body_intro1 h3 {
+     text-align: center;
+     color: green;
+     font-size: 1.8rem;
  }
-
- .ct {
-     font-size: 1.5rem;
-     background-image: url('6.jpeg');
-     background-size: 100% 100%;
-     padding: 50px;
-     height: fit-content;
-     border-radius: 20px;
- }
-  .tr {
-    font-size: 1.5rem;
-    background-image: url('7.jpg');
-    background-size: 100% 100%;
-    padding: 50px;
-    height: fit-content;
-    border-radius: 20px;
-  }
-
- p{
-     color: rgb(26, 159, 192);
- }
-
- .form1 {
-     color: rgb(201, 184, 33);
+ .team h3{
+     color: green;
+     font-size: 2.3rem;
+     text-align: center;
      font-weight: 900;
-     font-size: 1.1rem;
-     text-align: center;
-     padding: 3px;
+     background: linear-gradient(to bottom, wheat, transparent);
  }
 
- .topics {
+ .end {
      display: flex;
      justify-content: space-evenly;
-     color: yellow;
-     text-align: center;
-     font-size: 1.5rem;
+     
+     
  }
- 
- footer{
-     background-color: rgba(0, 0, 0, 0.418);
-     text-align: center;
-    font-size: 2.1rem;
+ form{
+     font-size: 2.5rem;
+     color: green;
+     padding: 25px;
+     width: 650px;
  }
+
+ form input  {
+     padding: 15px;
+     width: 100%;
+ }
+ .city img{
+    height: 500px;
+    width: 600px;
+ }
+
+ .travel img{
+     height: 500px;
+     width: 600px;
+ }
+
+form input textarea{
+    height: 100px;
+}
